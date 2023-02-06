@@ -1,0 +1,172 @@
+ 
+ .c1{
+   display: flex;
+ }
+ .info{
+   display: flex;
+ }
+ 
+ .d-flex img{
+      margin-left: 6rem;
+ }
+
+h2{
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+
+.innerpage_data{
+  background-color: white;
+  width: 1200px;
+  height: 1750px; 
+  margin-left: 5rem;
+}
+
+.d-flex flex
+.dropdown button{
+  background-color: white;
+  color: black;
+}
+
+ #notification{
+   margin-left: 50rem;
+ }
+  
+ .name{
+   width: 5rem;
+   margin-top: 1rem;
+ }
+ /*For Sidebar */
+ /*For Dashboard side bar*/
+#dashboard{
+  display: flex;
+  color: red;
+  
+  width: 183px;
+  height: 43px;
+  align-items: center;
+  border-radius: 5px;
+}
+#dashboard_logo{
+  margin-left: 35px;
+}
+#dtext{
+  margin-left: 5px;
+  position: relative;
+  bottom: 2px;
+}
+
+#analysis{
+  display: flex;
+  background-color: #FFF3F4;
+   
+  width: 183px;
+  height: 43px;
+  align-items: center;
+  border-radius: 5px;
+}
+#analysis_logo{
+  margin-left: 35px;
+}
+#atext{
+  margin-left: 5px;
+  position: relative;
+  bottom: 2px;
+}
+
+#inbox{
+  display: flex;
+  
+   
+  width: 183px;
+  height: 43px;
+  align-items: center;
+  border-radius: 5px;
+}
+#inbox_logo{
+  margin-left: 35px;
+}
+#itext{
+  margin-left: 5px;
+  position: relative;
+  bottom: 2px;
+}
+
+#history{
+  display: flex;
+  
+   
+  width: 183px;
+  height: 43px;
+  align-items: center;
+  border-radius: 5px;
+}
+#history_logo{
+  margin-left: 35px;
+}
+#htext{
+  margin-left: 5px;
+  position: relative;
+  bottom: 2px;
+}
+
+#users{
+  display: flex;
+  
+   
+  width: 183px;
+  height: 43px;
+  align-items: center;
+  border-radius: 5px;
+}
+#users_logo{
+  margin-left: 35px;
+}
+#utext{
+  margin-left: 5px;
+  position: relative;
+  bottom: 2px;
+}
+
+#maintenance{
+  display: flex;
+  
+   
+  width: 183px;
+  height: 43px;
+  align-items: center;
+  border-radius: 5px;
+}
+#maintenance_logo{
+  margin-left: 35px;
+}
+#mtext{
+  margin-left: 5px;
+  position: relative;
+  bottom: 2px;
+}
+
+#setting{
+  display: flex;
+  
+   
+  width: 183px;
+  height: 43px;
+  align-items: center;
+  border-radius: 5px;
+}
+#setting_logo{
+  margin-left: 35px;
+}
+#stext{
+  margin-left: 5px;
+  position: relative;
+  bottom: 2px;
+}
+#all{
+  display: flex;
+  background-color: #FAFAFA;
+}
+#sidebar{
+  background-color: white;
+}
