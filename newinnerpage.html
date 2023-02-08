@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
-  <link rel="stylesheet" href="./css/innerpage.css">
+  <link rel="stylesheet" href="./css/newinnerpage.css">
   <title>Innerpage | Company</title>
 </head>
 
@@ -25,12 +25,12 @@
 </div>
 <div class="dashboard_main">
     <div class="sidebar">
-        <div class="imagename" id="dshb">
+        <div class="imagename" >
             <img class="dash" src="./images/dashboard-active.svg">
             <p class="dashp sidebar-name">Dashboard</p>
         </div>
-        <div class="imagename">
-            <img class="analysis" src="./images/menu-bar.svg">
+        <div class="imagename" id="dshb">
+            <img class="analysis" src="./images/graph-active.svg">
             <p class="names sidebar-name">Analysis</p>
         </div>
         <div class="imagename">
@@ -68,9 +68,7 @@
               <img src="./images/logo.svg" alt="Company logo" width="142px" height="30px">
             </a>
           </li>
-
           <form class="d-flex" role="search">
-
             <img src="./images/search-icon.svg" alt="search button" width="20rem" id="sea">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
@@ -79,15 +77,12 @@
             <a class="nav-link" href="#"><img src="./images/notification-icon.svg" alt="notification"
                 id="notification"></a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link" href="#"><img src="./images/profile.png" alt="profile" id="profile"></a>
           </li>
           <div class="name">
             John doe
           </div>
-
-
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               <img src="./images/downward-arrow.svg" alt="down arrow">
@@ -101,8 +96,7 @@
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </li>
-
-           
+           
       </div>
     </div>
   </nav> -->
@@ -119,40 +113,31 @@
             height="15px"></div>
         <div id="dtext">Dashboard</div>
       </div>
-
       <div id="analysis">
         <div id="analysis_logo"><img src="./images/graph-default.svg" alt="analysis" width="15px" height="15px"></div>
         <div id="atext">Analysis</div>
       </div>
-
       <div id="inbox">
         <div id="inbox_logo"><img src="./images/inbox-default.svg" alt="inbox" width="15px" height="15px"></div>
         <div id="itext">Inbox</div>
       </div>
-
       <div id="history">
         <div id="history_logo"><img src="./images/clock-default.svg" alt="history" width="15px" height="15px"></div>
         <div id="htext">History</div>
       </div>
-
       <div id="users">
         <div id="users_logo"><img src="./images/user-default.svg" alt="users" width="15px" height="15px"></div>
         <div id="utext">Users</div>
       </div>
-
       <div id="maintenance">
         <div id="maintenance_logo"><img src="./images/maintenance-default.svg" alt="maintenance" width="15px"
             height="15px"></div>
         <div id="mtext">Maintenance</div>
       </div>
-
       <div id="setting">
         <div id="setting_logo"><img src="./images/setting-default.svg" alt="setting" width="15px" height="15px"></div>
         <div id="stext">Setting</div>
       </div>
-
-
-
     </div>
  -->
 
@@ -160,20 +145,20 @@
       <h2>Analysis</h2>
       <br>
 
-       
+       
 
       <!-- Innerpage data -->
       <div class="innerpage_data">
         <div class="one_column" style="padding: 3rem;">
           <h3>One column</h3>
           <div style="width: 100%;">
-            <input type="text" placeholder="Name" style="width: 70rem;"><br>
+            <input type="text" placeholder="Name" class="i-name" "><br>
           </div>
 
-          <div class="dropdown" style="margin-top:1rem;">
-            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-              aria-expanded="false" style="width: 70rem;color: black;background-color: white;">
-              Dropdown
+          <div class="dropdown" >
+            <button class="btn btn-secondary dropdown-toggle" id="b1" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <p id="dropdown"> Dropdown</p>
             </button>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Action</a></li>
@@ -182,33 +167,33 @@
             </ul>
           </div>
 
-          <input type="textarea" placeholder="Multiple line" style="height: 10rem;width: 70rem;margin-top: 1rem;">
+          <input type="textarea" placeholder="Multiple line" class="textarea">
 
 
         </div>
 
 
-        <div class="two_column" style="padding: 3rem;">
+        <div class="two_column" style="padding: 3rem; background-color: white;">
           <h3>Two column</h3>
           <div class="c1">
-            <div style="width: 100%;">
-              <input type="text" placeholder="Name" style="width: 30rem;" "><br>
+            <div  id="d2" >
+              <input type="text" placeholder="Name" id="b2"><br>
             </div>
 
         <div style=" width: 100%;">
-              <input type="text" placeholder="Username" style="width: 30rem;"><br>
+              <input type="text" placeholder="Username" id="b3"><br>
             </div>
           </div>
 
           <div class="c1">
-            <div style="width: 100%;width: 30rem;">
-              <input type="password" placeholder="Password" style="width: 30rem;margin-top: 1rem;" "><br>
+            <div id="q1" >
+              <input type="password" placeholder="Password" id="p1"><br>
       </div>
 
       <div class=" dropdown" style="margin-top:1rem;margin-left: 4.5rem;">
               <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                aria-expanded="false" style="width: 30rem;color: black;background-color: white;">
-                Dropdown
+                aria-expanded="false"  id="button1">
+                 Dropdown
               </button>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -222,15 +207,15 @@
             <h3>Three column</h3>
 
             <div class="c1">
-              <div style="width: 100%;width: 22rem;">
-                <input type="text" placeholder="Focus" style="width: 20rem;" "><br>
+              <div class="focus">
+                <input type="text" placeholder="Focus" class="focus"><br>
             </div>
-            <div style=" width: 100%;width: 22rem;">
-                <input type="password" placeholder="Password" style="width: 20rem;" "><br>
+            <div class="password">
+                <input type="password" placeholder="Password" class="password"><br>
             </div>
 
-            <div style=" width: 100%;width: 22rem;">
-                <input type="text" placeholder="Disabled" style="width: 20rem; " disabled><br>
+            <div class="disabled">
+                <input type="text" placeholder="Disabled" class="disabled" " disabled><br>
               </div>
             </div>
 
@@ -238,20 +223,20 @@
               <h3>Four column</h3>
 
               <div class="c1">
-                <div style="width: 100%;width: 17rem;">
-                  <input type="text" placeholder="Designation" style="width: 15rem;border-color: red;"><br>
+                <div class="designation">
+                  <input type="text" placeholder="Designation" class="designation"><br>
                   <p style="color: red;width: 10rem;">Enter valid data</p>
                 </div>
-                <div style="width: 100%;width: 17rem;">
-                  <input type="text" placeholder="Name" style="width: 15rem;" "><br><p>Enter your full name as per ID</p>
+                <div class="fname">
+                  <input type="text" placeholder="Name" class="fname"><br><p>Enter your full name as per ID</p>
             </div>
-            <div style=" width: 100%;width: 17rem;">
-                  <input type="text" placeholder="Username" value="johndoe" style="width: 15rem;"><br>
+            <div class="fusername">
+                  <input type="text" placeholder="Username" value="johndoe" class="fusername"><br>
                 </div>
 
                 <div class=" dropdown">
                   <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                    aria-expanded="false" style="width: 17rem;color: black;background-color: white;">
+                    aria-expanded="false" id="dropdown-d4">
                     Dropdown
                   </button>
                   <ul class="dropdown-menu">
@@ -269,45 +254,49 @@
             <h4 style="margin-top: 1rem;">File Upload</h4>
             <div class="c1">
               <button class="btn btn-primary" type="submit"
-                style="width:10rem;color: red;background-color: white;border-radius: 50px;border-color: red;height: 3.5rem;margin-top: 1rem;"><img
+                id="butt1"><img
                   src="./images/cloud-upload-icon.svg" alt="upload"> Upload</button>
               <p style="margin-top: 2rem;margin-left: 1rem;"> No item selected</p>
             </div>
 
             <div class="Radio_button" style="padding-top: 3rem;">
               <h3>Radio Button</h3>
-              <input type="radio" value="option1" id="option1" name="radb"> Option 1
-              <input type="radio" value="option2" id="option2" name="radb"> Option 2
+              <label for="option1">
+              <input type="radio" value="option1" id="option1" name="radb">  Option 1</label>
+              <label for="option2">
+              <input type="radio" value="option2" id="option2" name="radb"> Option 2</label>
             </div>
 
             <div class="checkbox" style="padding-top: 3rem;">
               <h3>Checkbox</h3>
-              <input type="checkbox" value="option1" id="option1" name="radb"> Option 1
-              <input type="checkbox" value="option2" id="option2" name="radb"> Option 2
+               
+              <input type="checkbox" value="option1" id="option1" name="radb"> Option 1 
+               
+              <input type="checkbox" value="option2" id="option2" name="radb"> Option 2 
             </div>
 
             <div class="checkbox" style="padding-top: 3rem;">
               <h3>Snackbar</h3>
               <div class="info">
-                <div class="alert alert-danger" role="alert"
-                  style="width: 35rem;background-color: white;color: red;border-color: red;">
+                <div class="alert alert-danger sdanger" role="alert"
+                  >
                   <img src="./images/error-icon.svg" alt="error" width="25rem"> This is an error message!
                 </div>
 
-                <div class="alert alert-info" role="alert"
-                  style="width: 35rem;background-color: white;color: blue;border-color: blue;margin-left: 3rem;">
+                <div class="alert alert-info sinfo" role="alert"
+                  >
                   <img src="./images/error-icon.svg" alt="error" width="25rem"> This is an information message!
                 </div>
               </div>
 
               <div class="info">
-                <div class="alert alert-danger" role="alert"
-                  style="width: 35rem;background-color: white;color:orange ;border-color:orange;">
+                <div class="alert alert-danger swarning" role="alert"
+                  >
                   <img src="./images/error-icon.svg" alt="error" width="25rem"> This is a warning message!
                 </div>
 
-                <div class="alert alert-info" role="alert"
-                  style="width: 35rem;background-color: white;color: green;border-color: green;margin-left: 3rem;">
+                <div class="alert alert-info ssuccess" role="alert"
+                  >
                   <img src="./images/error-icon.svg" alt="error" width="25rem"> This is a success message!
                 </div>
               </div>
@@ -315,12 +304,12 @@
 
             <div class="other_elements" style="padding-top: 3rem;">
               <h3>Call To Action</h3>
-              <button class="btn btn-primary" type="submit"
-                style="width:10rem;color: white;background-color: red;border-radius: 50px;border-color: red;height: 3.5rem;margin-top: 1rem;">
+              <button class="btn btn-primary CTAbutton1" type="submit"
+                >
                 <b>Primary</b></button>
 
-              <button class="btn btn-primary" type="submit"
-                style="width:10rem;color: red;background-color: white;border-radius: 50px;border-color: red;height: 3.5rem;margin-top: 1rem;margin-left: 2rem;"><b>Secondary</b>
+              <button class="btn btn-primary CTAbutton2" type="submit"
+                ><b>Secondary</b>
               </button>
 
               <div class="other_elements" style="padding-top: 3rem;">
@@ -334,12 +323,12 @@
 
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="https://www.google.co.in/?client=safari&channel=mac_bm">
                       <p style="color: black;">Tab 2</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="https://www.apple.com/in/">
                       <p style="color: black;"> Tab 3</p>
                     </a>
                   </li>
